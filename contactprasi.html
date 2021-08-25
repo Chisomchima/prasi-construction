@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prasico.html</title>
+    <link rel="stylesheet" href="prasico.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/a4e577e1d5.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="prasico.html"><img src="images/prasilogo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="prasico.html">HOME</a></li>
+                    <li><a href="prasiabout.html">ABOUT</a></li>
+                    <li><a href="prasiservices.html">SERVICES</a></li>
+                    <li><a href="prasiprojects.html">PROJECTS</a></li>
+                    <li><a href="contactprasi.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick= "showMenu()"></i>
+        </nav>
+           
+            <a href="" class="hero-btn" id="hero-btns">Let's talk</a>
+    </section>
+
+  <section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2638818101937!2d7.063626614296215!3d6.228899728247169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10438350de4791ff%3A0x40d617a42d24f8b1!2sPRASI%20CONSTRUCTION!5e0!3m2!1sen!2sng!4v1626433614372!5m2!1sen!2sng" 
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+
+  <section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home" aria-hidden="true"></i>
+                <span> <h5>Anambra, Nigeria</h5>
+                    <p>Dr okey anueyiagu Avenue, Old INEC Road OKPUNO Awka, Anambra, Nigeria</p>
+                </span>
+                
+            </div>
+            <div>
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>
+                    <h5>Monday to Friday, 8AM to 4PM</h5>
+                    <p>+234 7083680667, +234 7086198877</p>
+                </span>
+               
+            </div>
+            <div>
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                <span><h5>prasiconstruction@gmail.com</h5>
+                    <p>email us your Enquiry</p>
+                </span>
+                
+            </div>
+        </div>
+        <div class="contact-col">
+                <form action="">
+                    <input type="text" placeholder="Enter your name" required>
+                    <input type="email" placeholder="Enter email address" required>
+                    <input type="text" placeholder="Enter your subject" required>
+                    <textarea rows="8" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn"id="red-btn">SUBMIT</button>
+                </form>
+        </div>
+    </div>
+  </section>
+    
+<!--footer-->
+
+<section class="footer" id="black-footer">
+<h4>
+    About Us
+</h4>
+<p>Lorem ipsum dolor sit amet
+     consectetur adipisicing elit. <br> Officiis culpa saepe
+      sed aspernatur ea, cumque commodi vero <br> qui hic rerum
+       esse assumenda doloremque <br> earum velit quos odit,
+        laudantium perspiciatis aut?</p>
+
+        <div class="icons">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-whatsapp" aria-hidden="true"></i>
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+            <i class="fa fa-phone" aria-hidden="true"></i>
+        </div>
+        <p> copyright&copy;2021 PRASI CONSTRUCTION</p>
+</section>
+
+
+
+
+<script>
+
+    var navLinks= document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-400px";
+    }
+
+
+</script>
+
+
+</body>
+</html>

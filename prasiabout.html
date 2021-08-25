@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prasico.html</title>
+    <link rel="stylesheet" href="prasico.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/a4e577e1d5.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="prasico.html"><img src="images/prasilogo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="prasico.html">HOME</a></li>
+                    <li><a href="prasiabout.html">ABOUT</a></li>
+                    <li><a href="prasiservices.html">SERVICES</a></li>
+                    <li><a href="prasiprojects.html">PROJECTS</a></li>
+                    <li><a href="contactprasi.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick= "showMenu()"></i>
+        </nav>
+            
+            <a href="" class="hero-btn"id="hero-btns">Let's talk</a>
+    </section>
+
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>PRASI CONSTRUCTION</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Tempore nulla accusantium vitae velit dolorum, alias
+                 voluptatum porro iure corporis, mollitia suscipit sunt 
+                 commodi labore, fugit vel sint quisquam sapiente nihil!</p>
+                 <a href="" class="hero-btn" id="red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/construction.jpg" alt="">
+        </div>
+    </div>
+</section>
+
+<section class="project" id="project">
+    <div class="content-box">
+        <h1>ABOUT US</h1>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-3">
+                    <div class="project-items">
+                        <i class="fa fa-home" aria-hidden="true"></i>
+                        <h2>
+                            <span class="counter text-center">
+                                Investment
+                            </span>
+                        </h2>
+                    </div>
+                </div>
+                <!---->
+                <div class="col-md-3">
+                    <div class="project-items">
+                        <i class="fas fa-torii-gate"></i>
+                        <h2>
+                            <span class="counter text-center">
+                                Construction
+                            </span>
+                        </h2>
+                    </div>
+                </div>
+                <!---->
+                <div class="col-md-3">
+                    <div class="project-items">
+                        <i class="fa fa-university" aria-hidden="true"></i>
+                        <h2>
+                            <span class="counter text-center">
+                                Design
+                            </span>
+                        </h2>
+                    </div>
+                </div>
+                <!---->
+                <div class="col-md-3">
+                    <div class="project-items">
+                        <i class="fa fa-handshake-o" aria-hidden="true"></i>
+                        <h2>
+                            <span class="counter text-center">
+                                Services
+                            </span>
+                        </h2>
+                    </div>
+                </div>
+                <!---->
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--footer-->
+
+<section class="footer">
+
+        <div class="icons">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-whatsapp" aria-hidden="true"></i>
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+            <i class="fa fa-phone" aria-hidden="true"></i>
+        </div>
+        <p> copyright&copy;2021 PRASI CONSTRUCTION</p>
+</section>
+
+
+
+
+<script>
+
+    var navLinks= document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-400px";
+    }
+
+
+</script>
+
+
+</body>
+</html>

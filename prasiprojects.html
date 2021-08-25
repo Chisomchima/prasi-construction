@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prasico.html</title>
+    <link rel="stylesheet" href="prasico.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/a4e577e1d5.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="prasico.html"><img src="images/prasilogo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="prasico.html">HOME</a></li>
+                    <li><a href="prasiabout.html">ABOUT</a></li>
+                    <li><a href="prasiservices.html">SERVICES</a></li>
+                    <li><a href="prasiprojects.html">PROJECTS</a></li>
+                    <li><a href="contactprasi.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick= "showMenu()"></i>
+        </nav>
+           
+            <a href="" class="hero-btn" id="hero-btns">Let's talk</a>
+    </section>
+
+    <section class="campus">
+        <h1>OUR WORKS</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Incidunt ullam temporibus iure numquam nam, voluptatibus tenetur! 
+            A enim sapiente, laudantium tempora voluptatibus at cupiditate 
+            quibusdam vel. Officia minima ipsa pariatur.
+       </P>
+       <div class="row">
+            <div class="campus-col">
+                <img src="images/prasigalery5.jpg" alt="">
+                <div class="layer">
+                   
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/prasigalery2.jpg" alt="">
+                <div class="layer">
+                   
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/prasigalery4.jpg" alt="">
+                <div class="layer">
+                
+                </div>
+            </div>
+       </div>
+       <div class="row">
+        <div class="campus-col">
+            <img src="images/prasigalery6.jpg" alt="">
+            <div class="layer">
+               <h1></h1>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/prasigalery9.jpeg" alt="">
+            <div class="layer">
+               <h1></h1>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/prasigalery7.jpg" alt="">
+            <div class="layer">
+            <h1></h1>
+            </div>
+        </div>
+   </div>
+
+   <div class="comment-box">
+        <h3>Leave a message</h3>
+        <form class="comment-form">
+           <input type="text" placeholder="Enter Name">
+           <input type="email" placeholder="Enter Email">
+           <textarea  rows="5" placeholder="Your message"></textarea>
+            <button type="submit" class="hero-btn"id="red-btn">SUBMIT</button>
+
+        </form>
+   </div>
+</section>
+
+    
+<!--footer-->
+
+<section class="footer" id="black-footer">
+<h4>
+    About Us
+</h4>
+<p>Lorem ipsum dolor sit amet
+     consectetur adipisicing elit. <br> Officiis culpa saepe
+      sed aspernatur ea, cumque commodi vero <br> qui hic rerum
+       esse assumenda doloremque <br> earum velit quos odit,
+        laudantium perspiciatis aut?</p>
+
+        <div class="icons">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-whatsapp" aria-hidden="true"></i>
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+            <i class="fa fa-phone" aria-hidden="true"></i>
+        </div>
+        <p> copyright&copy;2021 PRASI CONSTRUCTION</p>
+</section>
+
+
+
+
+<script>
+
+    var navLinks= document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-400px";
+    }
+
+
+</script>
+
+
+</body>
+</html>
